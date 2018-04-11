@@ -1,0 +1,22 @@
+cc -MM *.c > .depend
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o show_ucontext.o show_ucontext.c
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_thread.o test_thread.c
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o thread.o thread.c
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o interrupt.o interrupt.c
+cc   show_ucontext.o test_thread.o thread.o interrupt.o   -o show_ucontext
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o show_handler.o show_handler.c
+cc   show_handler.o test_thread.o thread.o interrupt.o   -o show_handler
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_basic.o test_basic.c
+cc   test_basic.o test_thread.o thread.o interrupt.o   -o test_basic
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_preemptive.o test_preemptive.c
+cc   test_preemptive.o test_thread.o thread.o interrupt.o   -o test_preemptive
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_wakeup.o test_wakeup.c
+cc   test_wakeup.o test_thread.o thread.o interrupt.o   -o test_wakeup
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_wakeup_all.o test_wakeup_all.c
+cc   test_wakeup_all.o test_thread.o thread.o interrupt.o   -o test_wakeup_all
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_lock.o test_lock.c
+cc   test_lock.o test_thread.o thread.o interrupt.o   -o test_lock
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_cv_signal.o test_cv_signal.c
+cc   test_cv_signal.o test_thread.o thread.o interrupt.o   -o test_cv_signal
+cc -g -Wall -Werror -D_GNU_SOURCE   -c -o test_cv_broadcast.o test_cv_broadcast.c
+cc   test_cv_broadcast.o test_thread.o thread.o interrupt.o   -o test_cv_broadcast

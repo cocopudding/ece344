@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="webserver"
+                     displayName="webserver"
+                     projectFiles="true"
+                     root="/nfs/ug/homes-1/z/zhang723/ece344/webserver">
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/common.c</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/common.h</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/request.c</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/request.h</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/server.c</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/server_thread.c</itemPath>
+        <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/server_thread.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>/nfs/ug/homes-1/z/zhang723/ece344/webserver/Makefile</itemPath>
+      <itemPath>../../webserver/server</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/nfs/ug/homes-1/z/zhang723/ece344/webserver</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-mtune=generic -march=x86-64 -g"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>/nfs/ug/homes-1/z/zhang723/ece344/webserver</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>../../webserver/server</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/nfs/ug/homes-1/z/zhang723/ece344/webserver</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="/nfs/ug/homes-1/z/zhang723/ece344/webserver/common.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="/nfs/ug/homes-1/z/zhang723/ece344/webserver/request.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="/nfs/ug/homes-1/z/zhang723/ece344/webserver/server.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="/nfs/ug/homes-1/z/zhang723/ece344/webserver/server_thread.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

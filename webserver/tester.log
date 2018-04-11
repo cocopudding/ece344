@@ -1,0 +1,70 @@
+Mon Nov 23 00:25:17 EST 2015
+Running threads experiment. Output goes to plot-threads.out
+Threads experiment done.
+Mon Nov 23 00:34:01 EST 2015
+Running requests experiment. Output goes to plot-requests.out
+Requests experiment done.
+Mon Nov 23 00:36:27 EST 2015
+Running cachesize experiment. Output goes to plot-cachesize.out
+add to cache
+add to cache
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14358 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+./run-one-experiment: line 41: 14371 Aborted                 ./client -t localhost $1 100 10 $FILESET >> run.out
+error: client nr 1 failed
+add to cache
+add to cache
+add to cache
+add to cache
+add to cache
+add to cache
+add to cache
+add to cache
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14385 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+./run-one-experiment: line 41: 14396 Aborted                 ./client -t localhost $1 100 10 $FILESET >> run.out
+error: client nr 1 failed
+add to cache
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14412 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+./run-one-experiment: line 41: 14424 Aborted                 ./client -t localhost $1 100 10 $FILESET >> run.out
+error: client nr 1 failed
+add to cache
+add to cache
+add to cache
+add to cache
+add to cache
+Rio_readlineb error: Connection reset by peer
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14438 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+error: client nr 1 failed
+add to cache
+add to cache
+add to cache
+Rio_readlineb error: Connection reset by peer
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14464 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+error: client nr 1 failed
+add to cache
+add to cache
+add to cache
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+client: client.c:84: client_print: Assertion `orig_csum == csum' failed.
+./run-one-experiment: line 41: 14490 Segmentation fault      ./server $1 $2 $3 $4 > /dev/null
+./run-one-experiment: line 41: 14502 Aborted                 ./client -t localhost $1 100 10 $FILESET >> run.out
+error: client nr 1 failed
+Cachesize experiment done.

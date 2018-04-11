@@ -1,0 +1,12 @@
+cc -MM *.c > .depend
+cc -g -Wall -Werror   -c -o server.o server.c
+cc -g -Wall -Werror   -c -o server_thread.o server_thread.c
+cc -g -Wall -Werror   -c -o request.o request.c
+cc -g -Wall -Werror   -c -o common.o common.c
+cc   server.o server_thread.o request.o common.o -lm -lpthread -lpopt  -o server
+cc -g -Wall -Werror   -c -o client_simple.o client_simple.c
+cc   client_simple.o common.o -lm -lpthread -lpopt  -o client_simple
+cc -g -Wall -Werror   -c -o client.o client.c
+cc   client.o common.o -lm -lpthread -lpopt  -o client
+cc -g -Wall -Werror   -c -o fileset.o fileset.c
+cc   fileset.o common.o -lm -lpthread -lpopt  -o fileset

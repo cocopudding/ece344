@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="fileset">
+        <df name="fileset_dir">
+        </df>
+      </df>
+      <df name="server">
+      </df>
+      <df name="server1">
+      </df>
+      <df name="server10">
+      </df>
+      <df name="server11">
+      </df>
+      <df name="server12">
+      </df>
+      <df name="server13">
+      </df>
+      <df name="server14">
+      </df>
+      <df name="server15">
+      </df>
+      <df name="server16">
+      </df>
+      <df name="server17">
+      </df>
+      <df name="server18">
+      </df>
+      <df name="server19">
+      </df>
+      <df name="server2">
+      </df>
+      <df name="server3">
+      </df>
+      <df name="server4">
+      </df>
+      <df name="server5">
+      </df>
+      <df name="server6">
+      </df>
+      <df name="server7">
+      </df>
+      <df name="server8">
+      </df>
+      <df name="server9">
+      </df>
+      <df name="test_basic">
+      </df>
+      <df name="test_basic1">
+      </df>
+      <df name="test_basic10">
+      </df>
+      <df name="test_basic11">
+      </df>
+      <df name="test_basic12">
+      </df>
+      <df name="test_basic13">
+      </df>
+      <df name="test_basic14">
+      </df>
+      <df name="test_basic15">
+      </df>
+      <df name="test_basic16">
+      </df>
+      <df name="test_basic17">
+      </df>
+      <df name="test_basic18">
+      </df>
+      <df name="test_basic19">
+      </df>
+      <df name="test_basic2">
+      </df>
+      <df name="test_basic20">
+      </df>
+      <df name="test_basic21">
+      </df>
+      <df name="test_basic22">
+      </df>
+      <df name="test_basic23">
+      </df>
+      <df name="test_basic24">
+      </df>
+      <df name="test_basic25">
+      </df>
+      <df name="test_basic26">
+      </df>
+      <df name="test_basic27">
+      </df>
+      <df name="test_basic28">
+      </df>
+      <df name="test_basic29">
+      </df>
+      <df name="test_basic3">
+      </df>
+      <df name="test_basic30">
+      </df>
+      <df name="test_basic31">
+      </df>
+      <df name="test_basic32">
+      </df>
+      <df name="test_basic33">
+      </df>
+      <df name="test_basic4">
+      </df>
+      <df name="test_basic5">
+      </df>
+      <df name="test_basic6">
+      </df>
+      <df name="test_basic7">
+      </df>
+      <df name="test_basic8">
+      </df>
+      <df name="test_basic9">
+      </df>
+      <df name="test_lock">
+      </df>
+      <df name="test_lock1">
+      </df>
+      <df name="test_lock2">
+      </df>
+      <df name="test_lock3">
+      </df>
+      <df name="test_preemptive">
+      </df>
+      <df name="test_preemptive1">
+      </df>
+      <df name="test_preemptive2">
+      </df>
+      <df name="test_wakeup">
+      </df>
+      <df name="test_wakeup_all">
+      </df>
+      <df name="test_wakeup_all1">
+      </df>
+      <in>common.h</in>
+      <in>fact.c</in>
+      <in>hello.c</in>
+      <in>hi.c</in>
+      <in>point.c</in>
+      <in>point.h</in>
+      <in>sorted_points.c</in>
+      <in>sorted_points.h</in>
+      <in>test_point.c</in>
+      <in>test_sorted_points.c</in>
+      <in>test_wc.c</in>
+      <in>testlinkedlist.c</in>
+      <in>wc.c</in>
+      <in>wc.h</in>
+      <in>words.c</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
